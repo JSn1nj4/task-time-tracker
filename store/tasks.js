@@ -11,7 +11,7 @@ export const mutations = {
       accumulated: 0,
     })
   },
-  delete(state, { task }) {
+  remove(state, task) {
     state.list.splice(state.list.indexOf(task), 1)
   },
   setStart(state, task) {
